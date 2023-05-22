@@ -1,0 +1,70 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f9ff;
+    padding: 0 20px;
+}
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    max-width: 565px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px #00000040;
+}
+section .container .time{
+    display: flex;
+    align-items: center;
+}
+.container .time .time-colon{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.time .time-colon .am_pm{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.container .time-colon .time-text{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f9ff;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px #00000040;
+}
+.time .time-colon .time-text,
+.time .time-colon .colon{
+    font-size: 35px;
+    font-weight: 700;
+}
+.time .time-colon .colon{
+    font-size: 40px;
+    margin: 0 10px;
+}
+.time .time-colon .time-text .text{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
